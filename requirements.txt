@@ -54,7 +54,6 @@ safetensors
 sentencepiece
 setuptools
 six
-sqlite
 sympy
 tbb
 tensorboard
