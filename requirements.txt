@@ -54,7 +54,6 @@ safetensors==0.4.3
 sentencepiece==0.1.96
 setuptools==69.5.1
 six==1.16.0
-sqlite==3.45.3
 sympy==1.13.1
 tbb==2021.8.0
 tensorboard==2.13.0
