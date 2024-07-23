@@ -23,7 +23,7 @@ def translate_text(text, tokenizer, model):
 # Serve the index.html file
 @app.route('/')
 def index():
-    return send_from_directory('.', 'index.html')
+    return send_from_directory('.', 'template/index.html')
 
 # Define the endpoint for translation
 @app.route('/translate', methods=['POST'])
@@ -42,4 +42,5 @@ def favicon():
                                'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=8000)
+
