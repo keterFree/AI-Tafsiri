@@ -1,6 +1,11 @@
 
-## Kalenjin Translation Model Mini-Project Documentation Summary
+# Kalenjin Translation Model Mini-Project
+## Group Members
+- Titus Keter - CS/MG/2163/09/21
+- Paul Ruoya - CS/MG/2595/09/21
+- Ezekiel Kiprotich - CS/MG/1930/09/21
 
+## Documentation Summary
 ### Objective
 The project aims to create and deploy a machine learning model that translates English text to Kalenjin using the `transformers` library, particularly the Helsinki-NLP models.
 
@@ -39,7 +44,3 @@ The trained model and tokenizer were saved and deployed as a Flask web applicati
 ### Conclusion
 This project demonstrates the entire process of building and deploying a language translation model, serving as a guide for similar projects.
 
-### Group Members
-- Titus Keter - CS/MG/2163/09/21
-- Paul Ruoya - CS/MG/2595/09/21
-- Ezekiel Kiprotich - CS/MG/1930/09/21
